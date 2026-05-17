@@ -1,9 +1,5 @@
 # Linux Architecture, Processes & Systemd – Cheat Code
 
-# Linux Architecture, Processes & Systemd – Cheat Code 🚀
-
----
-
 # 1. Core Components of Linux
 
 Linux follows a monolithic layered architecture that separates hardware operations from user applications.
@@ -78,7 +74,6 @@ Replaces child process memory with a new program.
 ## Process States
 
 | State | Meaning |
-|---|---|
 | R (Running) | Using CPU |
 | S (Sleeping) | Waiting for event/resource |
 | Z (Zombie) | Dead process waiting for parent acknowledgement |
