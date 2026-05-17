@@ -115,41 +115,32 @@ Example: Nginx requires network before startup.
 ## Essential systemd Commands
 
 # Start Service
-Bash
 sudo systemctl start <service_name>
 
 # Stop Service
-Bash
 sudo systemctl stop <service_name>
 
-# Enable on Boot
-Bash
+# Enable on Boo
 sudo systemctl enable <service_name>
 
 # Check Status
-Bash
 sudo systemctl status <service_name>
 
 # View Logs
-Bash
 journalctl
 
 # Service Specific Logs
-Bash
 journalctl -u <service_name>
 
-# Real-Time Logs
-Bash
+# Real-Time Log
 journalctl -f
 
 ## Quick Commands Reference
 
 # Boot Time Analysis
-Bash
 systemd-analyze
 
 # Check Unit File
-Bash
 systemctl cat <service_name>
 
 ## Key Takeaways 🔥
